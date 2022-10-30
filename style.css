@@ -1,0 +1,36 @@
+.popup-inlist {
+	position:absolute;
+	margin-top:3px;
+	background-color:#fff;
+	z-index:1;
+	border:1px solid #9A9A9A;
+	border-radius:3px;
+	max-height:290px;
+	height:auto;
+	width:362px;
+	overflow-y:scroll;
+}
+.popup-inlist div {
+	border-bottom:1px solid #ccc;
+	margin:1px;
+	padding:4px;
+	font-size:14px;
+	cursor:pointer;
+	color:#2748F7;
+}
+.popup-inlist div:hover {
+	background:#2748F7;
+	color:#fff;
+}
+.nopopup-botlist {
+	margin-top:3px;
+	background-color:#fff;
+	color:#555;
+	padding:1px 4px;
+	z-index:1;
+	border:1px dashed #9A9A9A;
+	border-radius:3px;
+	height:300px;
+	width:auto;
+	overflow-y:scroll;
+}
